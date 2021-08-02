@@ -2,7 +2,7 @@ from typing import List
 from datetime import datetime as dt
 
 
-class MySolution:
+class SolutionZ:
 
     def removeDuplicates(self, nums: List[int]) -> int:
 
@@ -79,8 +79,8 @@ if __name__ == '__main__':
     for index, arr in enumerate(tests):
         print(f"Input: {arr}")
         solutions = {
-            "solution Z": MySolution().removeDuplicates,
-            "solution A": MySolution().removeDuplicates,
+            "solution Z": SolutionZ().removeDuplicates,
+            "solution A": SolutionZ().removeDuplicates,
         }
         for s, f in solutions.items():
             start = dt.now()
